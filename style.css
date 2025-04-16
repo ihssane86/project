@@ -1,0 +1,79 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #8b4513;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Section for offers */
+.offers {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.offers h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #8b4513;
+}
+
+/* Individual offer styling */
+.offer {
+    display: flex;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.offer-image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.offer-text {
+    padding: 20px;
+    width: 50%;
+}
+
+.offer-text h3 {
+    font-size: 1.8rem;
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+.offer-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+: 1.2rem;
+}
